@@ -1,0 +1,54 @@
+.centre {
+  width: 70Vw;
+  margin: auto;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: cornflowerblue;
+  height: 50px;
+}
+nav {
+  height: 100%;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  background-color: transparent;
+}
+
+.btn {
+  color: white;
+  margin: auto;
+  height: 50%;
+  border: solid 1px white;
+  background-color: transparent;
+  padding: .2em .5em;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: 25px;
+}
+.btn.selected {
+  color: crimson;
+}
+
+h1 {
+  color: #56a79a;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h1:hover {
+  cursor: pointer;
+}
+p {
+  color: cornflowerblue;
+}
+h1, p {
+  text-align: center;
+}
+.color-red {
+  color: red;
+}
