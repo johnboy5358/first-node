@@ -1,19 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 99vw;
+}
+
 .centre {
-  width: 70Vw;
+  width: 70%;
   margin: auto;
 }
+
 header {
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
   background-color: cornflowerblue;
   height: 50px;
+  padding: .5em 1em
 }
+
 nav {
   height: 100%;
-  width: 20%;
-  display: flex;
-  justify-content: space-around;
   background-color: transparent;
 }
 
@@ -33,8 +41,8 @@ nav {
 
 .btn {
   color: white;
-  margin: auto;
-  height: 50%;
+  margin: auto .5em;
+  height: 100%;
   border: solid 1px white;
   background-color: transparent;
   padding: .2em .5em;
@@ -43,6 +51,7 @@ nav {
   text-decoration: none;
   vertical-align: middle;
   line-height: 25px;
+  float: left;
 }
 .btn.selected {
   color: crimson;
