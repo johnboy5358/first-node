@@ -27,6 +27,8 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type': 'text/css'})
     console.log(req.url)
     fs.createReadStream(__dirname + req.url).pipe(res);
+  } else {
+    writePipe(404, 'text/html', '/views/404.html')
   }
 });
 
