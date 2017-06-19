@@ -17,6 +17,20 @@ nav {
   background-color: transparent;
 }
 
+#four-o-four header {
+  display: block;
+}
+
+#four-o-four header h1 {
+  width: 100%;
+  text-align: center;
+  color: crimson;
+}
+
+#four-o-four nav {
+  width: 100%;
+}
+
 .btn {
   color: white;
   margin: auto;
